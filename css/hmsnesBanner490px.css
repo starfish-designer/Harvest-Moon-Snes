@@ -1,0 +1,11 @@
+#banner490px {
+	max-width: 490px;
+	width: 100%;
+	display: block;
+}
+
+#banner {
+	max-width: 770px;
+	width: 100%;
+	display: none;
+}

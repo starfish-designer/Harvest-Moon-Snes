@@ -1,0 +1,10 @@
+article {
+	max-width: 312px;
+	width: 100%;
+	float: none;
+}
+
+div.rolar2 {
+    overflow: auto;
+    white-space: nowrap;
+}
