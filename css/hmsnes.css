@@ -1,1 +1,386 @@
+/*************************
+*
+*	Reseta as margens e paddings
+*
+**************************/
+* {
+	margin: 0;
+	padding: 0;
+}
 
+/*************************
+*
+*	O Website
+*
+**************************/
+
+header {
+	max-width: 770px;
+	width: 100%;
+}
+
+article {
+	max-width: 628.5px;
+	width: 81.623376623%;
+	background-color: #866262;
+	float: right;
+	margin-top: 2px;
+}
+
+footer {
+	max-width: 770px;
+	width: 100%;
+	background-color: #452222;
+	clear: both;
+	text-align: center;
+	font-size: 13px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: white;
+}
+
+a {
+	color: #D5A92D;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+div.rolar {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#containers {
+	max-width: 770px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	background-color: #65413D;
+}
+
+#data {
+	max-width: 768px;
+	width: 100%;
+	background-color: #452222;
+	margin-top: -5px;
+	font-family: Arial, Tahoma, Sans-serif;
+	font-size: 14px;
+	color: white;
+	box-shadow: 2px 0 0 0 black, 
+              0 2px 0 0 black, 
+              2px 2px 0 0 black, 
+              2px 0 0 0 black inset, 
+              0 2px 0 0 black inset;
+}
+
+#imagem-cover {
+	max-width: 172px;
+	height: 314px;
+}
+
+#banner {
+	max-width: 770px;
+	width: 100%;
+}
+
+#banner490px {
+	max-width: 490px;
+	width: 100%;
+	display: none;
+}
+
+#tablea-rodape {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#tabela-doar {
+	margin: 0px auto 0px 0px;
+}
+
+#menu458px {
+	display: none;
+}
+
+#imagem-cover2 {
+	display: none;
+}
+
+#imagem-cidade {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+#tabela-montanha {
+	border: 2px solid #382012;
+	font-family: Tahoma, Arial, Sans-serif;
+	background-color: #261111;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagem-montanha {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+#tabela-ferramentas {
+	border: 2px solid #382012;
+	font-family: Tahoma, Arial, Sans-serif;
+	background-color: #261111;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 628.5px;
+	width: 100%;
+}
+
+#tabela-ferramentas tr:nth-child(even) {
+	background-color: #4F2626;
+}
+
+.titulo-introducao {
+	background-color: #2C1808;
+	text-align: center;
+	font-size: 18px;
+	color: #E4CFBE;
+}
+
+.fonte-corpo2 {
+	background-color: #2C1808;
+	font-size: 14px;
+	color: #E4CFBE;
+}
+
+.fonte-subtitulo {
+	font-family: Tahoma, Arial, Sans-serif;
+}
+
+.fonte-subtitulo2 {
+	font-family: Tahoma, Arial, Sans-serif;
+	text-align: center;
+	color: #D4BC6A;
+}
+
+.fonte-corpo {
+	color: white;
+	font-family: Tahoma, Arial, Sans-serif;
+	font-size: 14px;
+}
+
+.fonte-observacao {
+	font-size: 13px;
+	color: white;
+	text-align: justify;
+	margin-top: 15px;
+}
+
+.aparecer_menu458px {
+	display: none;
+}
+
+.lista {
+	text-decoration: none;
+	list-style: none;
+}
+
+.fonte-cidade {
+	color: white;
+	font-family: Tahoma, Arial, Sans-Serif;
+}
+
+.tabela-responsiva {
+	max-width: 628.5px;
+	width: 100%;
+}
+
+.fonte-corpo3 {
+	color: black;
+	font-size: 16px;
+	font-family: Tahoma, Arial, Sans-Serif;
+	font-weight: bold;
+}
+
+.fonte-nome-garotas {
+	font-family: Tahoma, Arial, Sans-serif;
+	text-align: left;
+	color: #D4BC6A;
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.estiloformulario_campo {
+	max-width: 362px;
+	width: 100%;
+	border: 1px solid #806115;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulario-harvestsnes {
+	font-family: Tahoma, Arial, Sans-Serif;
+	font-size: 17px;
+	max-width: 362px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*************************
+*
+*	MENU CSS
+*
+**************************/
+
+nav {
+	max-width: 141.5px;
+	width: 18.376623377%;
+	height: 727px;
+	background-image: url(../imagens/HarvestMoonMenuSnes.jpg);
+	background-size: 100% 727px;
+	margin-top: 2px;
+	float: left;
+	font-family: Tahoma, Arial, Sans-serif;
+}
+
+#tabela-home {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 25px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu1 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 50px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu2 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 95px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu3 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 125px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu4 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 153px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu5 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 190px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu6 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 227px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu7 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 285px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu8 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 310px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu9 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 355px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu10 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 435px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu11 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 480px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu12 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 405px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu13 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 510px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu14 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 570px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
+
+#tabela-menu15 {
+	position: absolute;
+	margin-left: 2.118051948%;
+	margin-top: 640px;
+	font-size: 14px;
+	font-family: Arial-Black, Sans-serif;
+}
